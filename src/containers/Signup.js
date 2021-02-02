@@ -106,6 +106,16 @@ export default function Signup() {
             onChange={handleFieldChange}
           />
         </Form.Group>
+
+        {/* <Form.Group controlId="userName" size="lg">
+          <Form.Label>User Name</Form.Label>
+          <Form.Control
+            type="userName"
+            value={fields.userName}
+            onChange={handleFieldChange}
+          />
+        </Form.Group> */}
+
         <Form.Group controlId="password" size="lg">
           <Form.Label>Password</Form.Label>
           <Form.Control
