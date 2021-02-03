@@ -4,14 +4,19 @@ import Home from "./containers/Home";
 import NotFound from "./containers/NotFound";
 import Login from "./containers/Login";
 import Signup from "./containers/Signup";
+import ResetPassword from "./containers/ResetPassword";
 
 export default function Routes() {
   return (
     <Switch>
 
-<Route exact path="/signup">
-  <Signup />
+<Route exact path="/login/reset">
+  <ResetPassword />
 </Route>
+
+      <Route exact path="/signup">
+        <Signup />
+      </Route>
 
       <Route exact path="/login">
        <Login />
